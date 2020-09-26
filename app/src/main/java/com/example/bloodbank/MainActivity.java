@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.os.Handler;
 
 public class MainActivity extends AppCompatActivity {
-    int timeout=4000;
+    int timeout=2000;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -4,6 +4,11 @@
     <string name="blood_group">Blood Group</string>
     <string name="locality">Locality</string>
     <string name="search">Search</string>
+    <string name="add">ADD</string>
+    <string name="name">Name :</string>
+    <string name="blood_type">Blood Type</string>
+    <string name="mobile">Mobile :</string>
+    <string name="enter_ur_name">Enter ur Name</string>
     <string-array name="blood_spiner">
         <item>A+</item>
         <item>B+</item>
