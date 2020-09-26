@@ -1,5 +1,9 @@
 <resources>
     <string name="app_name">bloodBank</string>
+    <string name="search_donor">Search Donor</string>
+    <string name="blood_group">Blood Group</string>
+    <string name="locality">Locality</string>
+    <string name="search">Search</string>
     <string-array name="blood_spiner">
         <item>A+</item>
         <item>B+</item>
