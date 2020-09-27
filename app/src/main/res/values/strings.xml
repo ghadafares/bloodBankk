@@ -10,6 +10,7 @@
     <string name="mobile">Mobile :</string>
     <string name="enter_ur_name">Enter ur Name</string>
     <string-array name="blood_spiner">
+        <item>Enter ur Blood type</item>
         <item>A+</item>
         <item>B+</item>
         <item>AB+</item>
@@ -20,6 +21,8 @@
         <item>O-</item>
     </string-array>
     <string-array name="city">
+
+        <item>Enter ur Location</item>
         <item>Cairo</item>
         <item>Benha</item>
         <item>Zhagazig</item>

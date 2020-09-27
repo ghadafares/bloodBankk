@@ -5,8 +5,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageView;
+
+import com.example.bloodbank.register.RegisterDonor;
+import com.example.bloodbank.search.SearchActivity;
 
 public class login extends AppCompatActivity {
     ImageView iv_newDonor;
@@ -22,14 +24,14 @@ public class login extends AppCompatActivity {
         iv_newDonor.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(login.this, sign_up.class);
+                Intent intent = new Intent(login.this, RegisterDonor.class);
                 startActivity(intent);
             }
         });
         iv_searchDonor.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(login.this, search.class);
+                Intent intent = new Intent(login.this, SearchActivity.class);
                 startActivity(intent);
             }
         });

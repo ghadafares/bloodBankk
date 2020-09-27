@@ -9,9 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".searchList"></activity>
-        <activity android:name=".search" />
-        <activity android:name=".sign_up" />
+        <activity android:name=".search.SearchResults" />
+        <activity android:name=".search.SearchActivity" />
+        <activity android:name=".register.RegisterDonor" />
         <activity android:name=".login" />
         <activity android:name=".MainActivity">
             <intent-filter>
